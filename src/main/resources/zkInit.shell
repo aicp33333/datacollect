@@ -1,0 +1,29 @@
+# zookeeper初始化命令
+create /tescomm ""
+create /tescomm/datacollect/hna_interface ""
+#监控的根目录, 与files组成完整的路径
+create /tescomm/datacollect/hna_interface/watcher_path /home/virtualftp/haihang/haihang_interface/
+#上传数据的目录,和desc_files成对出现.
+create /tescomm/datacollect/hna_interface/watcher_files airline,finance,hotel,house,travel
+#hdfs路径
+create /tescomm/datacollect/hna_interface/dest_path hdfs://10.95.3.138:8020/user/tescomm/impala/hna/interface
+#上传的目录, 与files成对出现
+create /tescomm/datacollect/hna_interface/dest_files airline,finance,hotel,house,travel
+#目的目录文件夹分区　　０－不分区　　２４－天　　　６０－小时　５／１０／３０－＿分钟，　与dest_files成对出现
+create /tescomm/datacollect/hna_interface/dest_files_part  0
+#文件备份路径
+create /tescomm/datacollect/hna_interface/back_path /home/virtualftp/haihang/haihang_interface/back
+#错误日志保存路径
+create /tescomm/datacollect/hna_interface/err_path  /home/virtualftp/haihang/haihang_interface/err
+#采集数据保存周期
+create /tescomm/datacollect/hna_interface/data_time  3
+#采集程序异常处理策略
+create /tescomm/datacollect/hna_interface/tactics  0
+#上传文件后缀
+create /tescomm/datacollect/hna_interface/suffix  .csv
+#效验文件后缀
+create /tescomm/datacollect/hna_interface/check_suffix  .ok
+# 对外提供的ftp地址, 如果是ftp集群提供lvs地址或其它
+create /tescomm/datacollect/hna_interface/ftpip  127.0.0.1
+
+

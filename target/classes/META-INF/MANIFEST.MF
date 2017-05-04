@@ -1,0 +1,79 @@
+Manifest-Version: 1.0
+Built-By: rp
+Class-Path: lib/zk-0.0.1-SNAPSHOT.jar lib/nifty-core-0.14.0.jar lib/ja
+ vax.inject-1.jar lib/guice-3.0.jar lib/aopalliance-1.0.jar lib/guice-
+ multibindings-3.0.jar lib/units-0.91.jar lib/validation-api-1.1.0.Fin
+ al.jar lib/annotations-2.0.2.jar lib/nifty-client-0.14.0.jar lib/nett
+ y-all-5.0.0.Alpha1.jar lib/protobuf-java-2.5.0.jar lib/kafka_2.10-0.8
+ .2.1.jar lib/metrics-core-2.2.0.jar lib/scala-library-2.10.4.jar lib/
+ kafka-clients-0.8.2.1.jar lib/lz4-1.2.0.jar lib/jopt-simple-3.2.jar l
+ ib/zkclient-0.3.jar lib/hadoop-core-2.5.0-mr1-cdh5.2.0.jar lib/core-3
+ .1.1.jar lib/hadoop-yarn-client-2.5.0-cdh5.2.0.jar lib/jersey-client-
+ 1.9.jar lib/hadoop-yarn-api-2.5.0-cdh5.2.0.jar lib/hadoop-yarn-common
+ -2.5.0-cdh5.2.0.jar lib/jaxb-api-2.2.2.jar lib/stax-api-1.0-2.jar lib
+ /guice-servlet-3.0.jar lib/jersey-guice-1.9.jar lib/hadoop-tools-2.5.
+ 0-mr1-cdh5.2.0.jar lib/hadoop-test-2.5.0-mr1-cdh5.2.0.jar lib/ftplet-
+ api-1.0.0.jar lib/mina-core-2.0.0-M5.jar lib/ftpserver-core-1.0.0.jar
+  lib/ftpserver-deprecated-1.0.0-M2.jar lib/commons-lang-2.6.jar lib/h
+ adoop-common-2.5.0-cdh5.2.0.jar lib/hadoop-annotations-2.5.0-cdh5.2.0
+ .jar lib/guava-11.0.2.jar lib/commons-cli-1.2.jar lib/commons-math3-3
+ .1.1.jar lib/xmlenc-0.52.jar lib/commons-httpclient-3.1.jar lib/commo
+ ns-codec-1.4.jar lib/commons-io-2.4.jar lib/commons-net-3.1.jar lib/c
+ ommons-collections-3.2.1.jar lib/servlet-api-2.5.jar lib/jetty-6.1.26
+ .jar lib/jetty-util-6.1.26.jar lib/jersey-core-1.9.jar lib/jersey-jso
+ n-1.9.jar lib/jettison-1.1.jar lib/jaxb-impl-2.2.3-1.jar lib/jackson-
+ jaxrs-1.8.3.jar lib/jackson-xc-1.8.3.jar lib/jersey-server-1.9.jar li
+ b/asm-3.1.jar lib/jasper-compiler-5.5.23.jar lib/jasper-runtime-5.5.2
+ 3.jar lib/jsp-api-2.1.jar lib/commons-el-1.0.jar lib/commons-logging-
+ 1.1.3.jar lib/jets3t-0.9.0.jar lib/java-xmlbuilder-0.4.jar lib/common
+ s-configuration-1.6.jar lib/commons-digester-1.8.jar lib/commons-bean
+ utils-1.7.0.jar lib/commons-beanutils-core-1.8.0.jar lib/jackson-core
+ -asl-1.8.8.jar lib/jackson-mapper-asl-1.8.8.jar lib/avro-1.7.6-cdh5.2
+ .0.jar lib/paranamer-2.3.jar lib/snappy-java-1.0.5.jar lib/gson-2.2.4
+ .jar lib/hadoop-auth-2.5.0-cdh5.2.0.jar lib/apacheds-kerberos-codec-2
+ .0.0-M15.jar lib/apacheds-i18n-2.0.0-M15.jar lib/api-asn1-api-1.0.0-M
+ 20.jar lib/api-util-1.0.0-M20.jar lib/jsch-0.1.42.jar lib/jsr305-1.3.
+ 9.jar lib/commons-compress-1.4.1.jar lib/xz-1.0.jar lib/hadoop-hdfs-2
+ .5.0-cdh5.2.0.jar lib/commons-daemon-1.0.13.jar lib/netty-3.6.2.Final
+ .jar lib/zookeeper-3.4.5-cdh4.2.0.jar lib/jline-0.9.94.jar lib/curato
+ r-framework-2.8.0.jar lib/curator-client-2.8.0.jar lib/curator-recipe
+ s-2.8.0.jar lib/oozie-client-4.2.0.jar lib/json-simple-1.1.jar lib/ac
+ tivemq-client-5.8.0.jar lib/geronimo-jms_1.1_spec-1.1.1.jar lib/hawtb
+ uf-1.9.jar lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar lib/oozie-
+ hadoop-auth-hadoop-1-4.2.0.jar lib/slf4j-simple-1.6.6.jar lib/xercesI
+ mpl-2.10.0.jar lib/xml-apis-1.4.01.jar lib/oozie-core-4.2.0.jar lib/h
+ ive-webhcat-java-client-0.13.1.jar lib/hive-hcatalog-core-0.13.1.jar 
+ lib/hive-common-0.13.1.jar lib/hive-shims-0.13.1.jar lib/hive-shims-c
+ ommon-0.13.1.jar lib/hive-shims-0.20-0.13.1.jar lib/hive-shims-common
+ -secure-0.13.1.jar lib/hive-shims-0.20S-0.13.1.jar lib/hive-shims-0.2
+ 3-0.13.1.jar lib/hive-metastore-0.13.1.jar lib/hive-serde-0.13.1.jar 
+ lib/bonecp-0.8.0.RELEASE.jar lib/datanucleus-api-jdo-3.2.6.jar lib/da
+ tanucleus-core-3.2.10.jar lib/datanucleus-rdbms-3.2.9.jar lib/jdo-api
+ -3.0.1.jar lib/jta-1.1.jar lib/antlr-runtime-3.4.jar lib/stringtempla
+ te-3.2.1.jar lib/antlr-2.7.7.jar lib/libfb303-0.9.0.jar lib/hive-exec
+ -0.13.1.jar lib/hive-ant-0.13.1.jar lib/velocity-1.5.jar lib/oro-2.0.
+ 8.jar lib/commons-lang3-3.1.jar lib/ST4-4.0.4.jar lib/ant-1.9.1.jar l
+ ib/ant-launcher-1.9.1.jar lib/groovy-all-2.1.6.jar lib/stax-api-1.0.1
+ .jar lib/hive-hcatalog-server-extensions-0.13.1.jar lib/openjpa-persi
+ stence-2.2.2.jar lib/openjpa-kernel-2.2.2.jar lib/openjpa-lib-2.2.2.j
+ ar lib/serp-1.14.1.jar lib/geronimo-jta_1.1_spec-1.1.1.jar lib/geroni
+ mo-jpa_2.0_spec-1.1.jar lib/openjpa-jdbc-2.2.2.jar lib/openjpa-persis
+ tence-jdbc-2.2.2.jar lib/ehcache-core-2.6.3.jar lib/apache-log4j-extr
+ as-1.1.jar lib/jdom-1.1.jar lib/commons-dbcp-1.4.jar lib/commons-pool
+ -1.5.4.jar lib/hsqldb-1.8.0.10.jar lib/derby-10.10.1.1.jar lib/mail-1
+ .4.jar lib/activation-1.1.jar lib/postgresql-9.0-801.jdbc4.jar lib/oo
+ zie-sharelib-oozie-4.2.0.jar lib/oozie-hadoop-utils-hadoop-1-4.2.0.ja
+ r lib/oozie-sharelib-hcatalog-4.2.0.jar lib/quartz-2.1.7.jar lib/cura
+ tor-x-discovery-2.5.0.jar lib/metrics-core-3.0.2.jar lib/metrics-jvm-
+ 3.0.2.jar lib/metrics-json-3.0.2.jar lib/jackson-databind-2.2.2.jar l
+ ib/jackson-annotations-2.2.2.jar lib/jackson-core-2.2.2.jar lib/jung-
+ graph-impl-2.0.1.jar lib/jung-api-2.0.1.jar lib/jung-visualization-2.
+ 0.1.jar lib/jung-algorithms-2.0.1.jar lib/collections-generic-4.01.ja
+ r lib/org.eclipse.jgit-3.3.1.201403241930-r.jar lib/JavaEWAH-0.7.9.ja
+ r lib/libthrift-0.9.2.jar lib/httpclient-4.2.5.jar lib/httpcore-4.2.4
+ .jar lib/log4j-1.2.16.jar lib/slf4j-api-1.6.1.jar lib/slf4j-log4j12-1
+ .6.1.jar lib/jedis-2.8.0.jar lib/commons-pool2-2.3.jar lib/c3p0-0.9.1
+ .2.jar lib/mysql-connector-java-5.1.37.jar
+Build-Jdk: 1.8.0_77
+Created-By: Maven Integration for Eclipse
+
